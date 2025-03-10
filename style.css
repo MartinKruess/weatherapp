@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation */
+
+nav {
+  background-color: aqua;
+  padding: 0.3rem;
+}
+
+#searchForm {
+  width: max-content;
+  margin: auto;
+}
+
+input {
+  margin-right: -0.15rem;
+  padding: 0.2rem 0.5rem;
+  border: 0.1rem solid rgb(230, 173, 209);
+  border-right: 0 solid rgb(230, 173, 209);
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+input:focus,
+input:focus ~ button {
+  outline: 0.1rem solid rgb(230, 173, 209);
+}
+
+button {
+  margin-left: -0.15rem;
+  padding: 0.2rem 0.4rem;
+  border: 0.1rem solid rgb(230, 173, 209);
+  border-left: 0 solid rgb(230, 173, 209);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+/* Weather Section */
+
+#weatherSection {
+  color: #ededed;
+  height: 16rem;
+  display: flex;
+
+  #skyBody {
+    width: 3rem;
+    position: absolute;
+    top: 3rem;
+  }
+
+  div {
+    background-color: #4d30efa5;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: end;
+    padding: 0.2rem 10%;
+
+    .hot {
+      color: #ff0000cc;
+    }
+
+    .cold {
+      color: #01bfff;
+    }
+  }
+}
