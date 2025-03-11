@@ -12,3 +12,8 @@ Es liegen Bilder im `images` Ordner, die du verwenden kannst.
 ![Beispielbile Wetterapp](./assets/exampleImg.gif)
 
 ## Bonus
+
+- nutze die unterschiedlichen Bilder `night.gif` und `day.gif` für Tag und Nacht Uhrzeiten.
+  - 6-18 Uhr ist Tag
+  - 18-6 Uhr ist Nacht
+- Versuche je nach Uhrzeit, dass die Sonne oder der Mond an einer anderen Stelle angezeigt wird
