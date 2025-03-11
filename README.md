@@ -9,7 +9,7 @@ Die Hauptaufgabe ist es eine Wetter App zu erstellen. Die App muss nicht aussehe
 
 Es liegen Bilder im `images` Ordner, die du verwenden kannst.
 
-![Beispielbile Wetterapp](./assets/exampleImg.gif)
+![Beispielbile Wetterapp](./assets/weatherApp.png)
 
 ## Bonus
 
